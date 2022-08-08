@@ -1,0 +1,10 @@
+name: Custom
+
+on: [push]
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: action/checkout@v2
+      - uses: jonasmrfranca/custom-action@main
